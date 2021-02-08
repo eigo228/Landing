@@ -1,0 +1,785 @@
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.container-fluid {
+	background-image: url('../img/backhead.png');
+	background-repeat: repeat-x;
+	background-position-x: center;
+	background-position-y: bottom;
+	height: 100%;
+	margin: 0 0 100px 0;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.head__header {
+	display: flex;
+	margin-top: 92px;
+	justify-content: space-between;
+	align-items: center
+}
+
+.head__header h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #242f51;
+	cursor: pointer;
+	transition-duration: 350ms;
+}
+.head__header h2:hover {
+	transform: scale(1.1);
+}
+
+.head__header h2 span {
+	color: #fcae61;
+}
+
+
+.head__navigation {
+
+}
+.head__list {
+	display: flex;
+	align-items: center;
+	font-family: 'Poppins', serif;
+	font-weight: 400;
+}
+.head__text a {
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	transition-property: border-bottom;
+	transition-duration: 300ms;
+}
+.head__text a:visited {
+	color: #242f51;
+}
+.head__text a:hover {
+	border-bottom: 1px solid #242f51;
+}
+
+.head__buttoned a {
+	text-decoration: none;
+}
+.head__list a.head__buttoned {
+	text-decoration: none;
+	font-weight: 700;
+	border-radius: 25px;
+}
+
+
+.head__text {
+	padding-right: 30px;
+	color: #242f51;
+	font-size: 16px;
+}
+
+
+
+.head__button {
+	background: #2500f9;
+	color: #fff;
+	text-decoration: none;
+	padding: 17px 35px;
+	border-radius: 30px;
+	font-size: 16px;
+	border: 1px solid #2500f9;
+	transition-property: border,color,background;
+	transition-duration: 350ms;
+}
+.head__button:hover {
+	background: #fff;
+	color: #2500f9;
+	border: 1px solid #2500f9;
+}
+
+/****************************
+********BEST APP FOR YOUR****
+****************************/
+
+.head__content {
+	display: flex;
+	padding-bottom: 15px;
+}
+
+.head__about {
+	display: inline-flex;
+	flex: 0 0 55%;
+}
+.head__about-us {
+	padding: 250px 0 0 67px;
+}
+.head__choice {
+	display: inline-flex;
+	background: #e2eaed;
+	border-radius: 	25px
+}
+
+.head__about-us div.head__choice h3 {
+	display: inline-flex;
+	background: #e2eaed;
+	padding: 10px 25px 5px 10px;
+	border-radius: 25px;
+	color: #242f51;
+	font-family: 'Poppins', serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.head__about-us div img {
+	display: inline-flex;
+	background: #feaa25;
+	padding: 7px;
+	border-radius: 25px;
+}
+
+.head__about-us h1 {
+	padding: 18px 0 35px 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 60px;
+	color: #242f51;
+	line-height: 70px;
+}
+.head__about-us p {
+	padding-bottom: 38px;
+}
+.parag {
+	font-weight: 400;
+	color: #616368;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+.head__buttons {
+	padding-top: 24px;
+}
+
+.head__button2 {
+	color: #2500f9;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	transition-property: border-bottom;
+	transition-duration: 350ms;
+}
+.head__button2:hover {
+	border-bottom: 1px solid #2500f9;
+}
+
+.head__iphone {
+	display: inline-flex;
+	flex: 0 0 50%;
+	margin: 30px 0 0 65px;
+}
+
+.head__iphone img {
+	max-height: 830px;
+	object-fit: cover;
+
+
+}
+
+.button {
+	background: #2500f9;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	padding: 16px 35px;
+	margin: 0 24px 0 0;
+	border-radius: 30px;
+	font-size: 16px;
+	border: 1px solid #2500f9;
+	transition-property: border,color,background;
+	transition-duration: 350ms;
+}
+
+.button:hover {
+	background: #fff;
+	color: #2500f9;
+	border: 1px solid #2500f9;
+}
+
+/******************************
+******TRUSTED BY COMPANIES*****
+******************************/
+
+.trusted {
+	margin: 100px auto 145px auto;
+	max-width: 970px;
+}
+.trusted__title {
+	margin: 0 0 40px 0;
+}
+.trusted__title h3 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 16px;
+	color: #242f51;
+}
+
+.trusted__images {
+	display: flex;
+	justify-content: space-between;
+}
+.trusted__images img {
+	object-fit: contain;
+}
+
+/******************************
+**********FEATURES APP*********
+*******************************/
+
+.container-moved {
+	max-width: 1470px;
+	margin: 0 auto 0 auto;
+	height: 100%;
+}
+.features {
+	display: flex;
+	padding-bottom: 40px;
+}
+.features__iphone {
+	flex: 0 1 50%;
+}
+
+.features__text {
+	margin-top: 40px;
+	padding-left: 0;
+	flex: 0 1 50%;
+
+}
+
+.features__list {
+	margin-top: 85px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 36px;
+	color: #242f51;
+	line-height: 44px;
+}
+
+.features__title {
+	padding-bottom: 16px;
+}
+
+.features__performance {
+	display: flex;
+	margin-bottom: 53px;
+	max-width: 430px;
+}
+.features__performance:last-child {
+	margin-bottom: 0;
+}
+
+.features__icon {
+	padding-right: 30px;
+	align-self: center;
+}
+.features__perfhead {
+	padding-bottom: 10px;
+}
+.parag-sm {
+	font-weight: 400;
+	color: #616368;
+	font-size: 16px;
+	line-height: 30px;
+
+}
+
+.headred {
+	font-weight: 600;
+	font-size: 20px;
+	color: #f55767;
+}
+
+.headblue {
+	font-weight: 600;
+	font-size: 20px;
+	color: #2563ff;
+}
+.headgreen {
+	font-weight: 600;
+	font-size: 20px;
+	color: #40975f;
+}
+
+/**********************************)
+***********SMART JACKPOTS*********)
+***********************************/
+.container-1050 {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.jackpots {
+	margin-bottom: 200px;
+}
+
+.title-bg {
+	font-weight: 600;
+	font-size: 40px;
+	color: #242f51;
+	line-height: 52px;
+}
+
+.jackpots__header {
+	display: flex;
+	margin-bottom: 100px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.jackpots__title {
+	margin-right: 0;
+	max-width: 440px;
+	padding-right: 80px;
+}
+.jackpots__stick {
+	background: #b9b9b8;
+	width: 3px;
+	height: 140px;
+}
+
+.jackpots__about {
+
+	padding-left: 54px;
+}
+
+.jackpots__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.jackpots__icon {
+	padding-bottom: 27px;
+}
+
+.jackpots__head {
+	padding-bottom: 8px;
+}
+.jackpots__desc {
+	max-width: 260px;
+}
+.jackpots__descrip p {
+	line-height: 26px;
+}
+
+
+/*******************************************************
+**********DESIGNED BY LATEST INTEGRATION****************
+*******************************************************/
+
+.integration {
+	display: flex;
+	margin-left: 85px;
+	padding-bottom: 70px;
+	margin-bottom: 100px;
+	border-bottom: 2px solid #f4f4f4;
+}
+.integration__about {
+	align-self: center;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.integration__title {
+	max-width: 355px;
+	line-height: 46px;
+	padding-bottom: 15px;
+}
+
+.integration__text {
+	max-width: 415px;
+	line-height: 26px;
+	padding-bottom: 50px;
+}
+
+
+/***************************************
+***********WHY YOU SHOULD CHOOSE*********
+***************************************/
+
+.container-970 {
+	max-width: 970px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.whychoose {
+	margin-bottom: 200px;
+}
+.whychoose__header {
+	align-items: center;
+	text-align: center;
+	margin-bottom: 85px;
+}
+
+.whychoose__title {
+	margin: 0 auto;
+	max-width: 435px;
+	padding-bottom: 15px;
+	line-height: 46px;
+}
+
+.whychoose__text {
+	margin: 0 auto;
+	max-width: 635px;
+	line-height: 26px;
+}
+
+.whychoose__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.whychoose__row:first-child {
+	margin-bottom: 62px;
+}
+
+
+
+.whychoose__item {
+	text-align: center;
+	max-width: 270px;
+}
+.bigtext {
+	font-size: 20px;
+	color: #242f51;
+	font-weight: 600;
+
+}
+
+.whychoose__bigtext {
+	padding-top: 29px;
+	padding-bottom: 9px;
+}
+
+.whychoose__desc {
+	line-height: 26px;
+}
+
+/************************************
+*********ULTIMATE FEATURES***********
+************************************/
+
+
+.container-1450 {
+	max-width: 1600px;
+	margin: 0 auto;
+	height: 100%;
+	padding-left: 120px;
+}
+
+.ultimate {
+	display: flex;
+	margin-left: 180px;
+	margin-bottom: 180px
+}
+.ultimate__about {
+	flex: 0 0 50%;
+}
+.ultimate__header {
+	margin-bottom: 60px;
+}
+.ultimate__title {
+	max-width: 332px;
+	line-height: 46px;
+	padding-bottom: 8px;
+}
+
+.ultimate__text {
+	max-width: 400px;
+	line-height: 26px;
+}
+.ultimate__grid {
+	max-width: 630px;
+	margin-bottom: 65px;
+}
+.ultimate__item:last-child {
+	margin-right: 0;
+}
+.ultimate__row {
+	display: flex;
+	justify-content: space-between;
+}
+.ultimate__row:first-child {
+	margin-bottom: 48px;
+}
+
+.ultimate__item {
+	text-align: center;
+	max-width: 270px;
+	margin-right: 105px;
+}
+.ultimate__icon {
+	display:flex;
+	padding-bottom: 40px;
+
+}
+
+.ultimate__bigtext {
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.ultimate__desc {
+	text-align: left;
+	line-height: 26px;
+	max-width: 270px;
+	min-width: 200px;
+}
+
+.ultimate__butt {
+	padding: 15px 55px 15px 55px;
+}
+
+.ultimate__iphones {
+	margin-top: 50px;
+	flex: 0 1 50%;
+}
+
+/************************************
+***********EXTRA CHARGES************
+***********************************/
+
+.container-680 {
+	max-width: 680px;
+	margin: 0 auto;
+	height: 100%;
+}
+.pricing {
+	padding-bottom: 100px;
+	border-bottom: 2px solid #ebebeb;
+	margin-bottom: 140px;
+}
+
+.pricing__header {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.pricing__title {
+	max-width: 625px;
+	align-items: center;
+	padding-bottom: 18px;
+}
+
+
+.pricing__text {
+	max-width: 635px;
+	padding-bottom: 70px;
+}
+.pricing__slider {
+	border: 2px solid #ebebeb;
+	border-radius: 35px;
+}
+.pricing__slider a {
+	display: inline-block;
+	padding: 15px 25px 15px 25px;
+	text-decoration: none;
+}
+.pricing__slider-button {
+	border-radius: 35px;
+	font-weight: 600;
+	border: 3px solid #fff;
+	background: blue;
+	color: white;
+}
+.pricing__slider-button-inactive {
+	color: #929396;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.pricing__columns {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between
+}
+
+.pricing__item {
+	max-width: 313px;
+	max-height: 550px;
+	border-radius: 8px;
+	box-shadow: 0 70px 50px rgba(144,163,177, 0.25);
+}
+
+.pricing__item-inactive {
+	max-width: 313px;
+	max-height: 604px;
+	border: 2px solid #ebebeb;
+	border-radius: 8px;
+}
+
+.pricing__top {
+	max-height: 230px;
+	text-align: center;
+	padding: 60px 63px 40px 53px;
+	background-image: linear-gradient(to top, #f4f7f9, #fff);
+}
+.pricing__top-2 {
+	max-height: 230px;
+	text-align: center;
+	padding: 60px 70px 40px 60px;
+	background-image: linear-gradient(to top, #f4f7f9, #fff);
+}
+
+.pricing__dollars {
+	padding-bottom: 25px;
+}
+
+.pricing__cash {
+	font-size: 60px;
+	color: #242f51;
+	font-weight: 600;
+	letter-spacing: -2px;
+}
+
+.pricing__title {
+	padding-bottom: 
+}
+
+.pricing__bottom {}
+
+.pricing__list {
+	margin-top: 23px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.pricing__list li {
+	padding-bottom: 12px;
+}
+.pricing__list li:nth-child(4) {
+	margin-bottom: 28px;
+}
+.pricing__button{
+	display: inline-block;
+	margin-right: 0;
+	margin-bottom: 20px;
+	padding: 13px 45px 13px 45px;
+}
+
+.pricing__text-button {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 16px;
+	color: #2500f9;
+	text-decoration: none;
+}
+.pricing__text-button {
+	border-bottom: 1px solid #fff;
+	transition-property: border-bottom;
+	transition-duration: 350ms;
+}
+.pricing__text-button:hover {
+	border-bottom: 1px solid #2500f9;
+}
+
+
+/*********************************
+**********MEET OUR CLIENT SATISFAC*
+************************************/
+.container-fluidly {
+	height: 100%;
+	background-image: url('../img/meet/peoplemap.png');
+	background-position: 1% 20%;
+	background-repeat: no-repeat;
+}
+
+.meet {
+	display: flex;
+	margin-bottom: 200px;
+}
+.meet__blank {
+	flex: 0 1 50%;
+}
+
+.meet__block {
+	flex: 0 1 50%;
+}
+
+.meet__header {
+	padding-bottom: 35px;
+}
+
+.meet__title {
+	max-width: 489px;
+	line-height: 50px;
+	padding-bottom: 18px;
+}
+
+.meet__text {
+	max-width: 480px;
+	line-height: 26px;
+}
+
+.meet__stars {
+	padding-bottom: 30px;
+}
+.meet__message {
+	padding-bottom: 63px;
+}
+.meet__bigtext {
+	padding-bottom: 40px;
+}
+.meet__content {
+	line-height: 26px;
+}
+.meet__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.meet__man {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.meet__imageman {
+	padding-right: 30px;
+}
+.meet__about {
+	align-self: center;
+}
+.meet__name {
+	padding-bottom: 3px;
+}
+.meet__name h3 {
+	font-size: 18px;
+}
+
+.meet__pos {
+	font-size: 18px;
+}
+
+.meet__sliders {
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+
+.meet__left-slider {
+	padding-right: 10px;
+	border-right: 1px solid #ebebeb;
+}
+.meet__right-slider {
+	padding-left: 10px;
+	border-left: 1px solid #ebebeb;
+}
